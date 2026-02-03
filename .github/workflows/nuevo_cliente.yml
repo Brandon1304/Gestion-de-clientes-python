@@ -1,0 +1,10 @@
+name: Notificacion Nuevo Cliente
+on:
+  push:
+    paths:
+      - 'clientes/**'
+jobs:
+  alertar:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "EQUIPO: Se ha creado un nuevo cliente."
