@@ -1,0 +1,9 @@
+name: Registro de Consulta
+on:
+  workflow_dispatch: # Se activa manualmente desde la pestaña Actions
+jobs:
+  log_query:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mensaje de consulta
+        run: echo "INFO: Un miembro del equipo ha realizado una consulta de base de datos."
