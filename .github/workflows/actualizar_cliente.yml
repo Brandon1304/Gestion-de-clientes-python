@@ -1,0 +1,13 @@
+name: Notificación Actualización
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'clientes/*.txt'
+jobs:
+  notify_update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mensaje de actualización
+        run: echo " AVISO: Se ha actualizado la información de un cliente recurrente."
