@@ -127,7 +127,6 @@ def menu():
             print("❌ Opción no válida.")
 
 
-# Ejecutar programa final
-menu()
+
 
 
