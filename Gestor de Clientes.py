@@ -128,5 +128,7 @@ def menu():
 
 
 
+# Ejecutar programa final
+menu()
 
 
